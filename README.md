@@ -44,5 +44,6 @@ The digital clock displays the current system time and updates automatically eve
 ## 👩‍💻 Author
 
 **Sayali Phanse**
+<img width="1827" height="796" alt="image" src="https://github.com/user-attachments/assets/d8f88b29-29eb-4d87-8e1a-28827aaa38af" />
 
 ---
