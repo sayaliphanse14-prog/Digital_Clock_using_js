@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        -45deg,
+        #0f2027,
+        #203a43,
+        #2c5364,
+        #000428
+    );
+
+    background-size:400% 400%;
+
+    animation:bg 10s infinite alternate;
+
+}
+
+@keyframes bg{
+
+0%{
+background-position:left;
+}
+
+100%{
+background-position:right;
+}
+
+}
+
+.container{
+
+text-align:center;
+
+color:white;
+
+}
+
+h1{
+
+margin-bottom:15px;
+
+font-size:38px;
+
+}
+
+#greeting{
+
+margin-bottom:30px;
+
+font-weight:300;
+
+}
+
+.clock-card{
+
+backdrop-filter:blur(20px);
+
+background:rgba(255,255,255,.12);
+
+padding:40px;
+
+border-radius:25px;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.4);
+
+border:1px solid rgba(255,255,255,.2);
+
+}
+
+#clock{
+
+font-size:70px;
+
+font-weight:bold;
+
+letter-spacing:5px;
+
+color:#00ffcc;
+
+text-shadow:
+
+0 0 20px cyan,
+
+0 0 40px cyan;
+
+}
+
+#ampm{
+
+margin-top:15px;
+
+font-size:24px;
+
+color:gold;
+
+}
+
+#date{
+
+margin-top:20px;
+
+font-size:20px;
+
+}
+
+button{
+
+margin-top:30px;
+
+padding:12px 25px;
+
+font-size:16px;
+
+cursor:pointer;
+
+border:none;
+
+border-radius:30px;
+
+background:#00ffcc;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.08);
+
+}
+
+#themeBtn{
+
+position:absolute;
+
+top:30px;
+
+right:30px;
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+}
